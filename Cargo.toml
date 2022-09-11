@@ -17,7 +17,7 @@ keywords = ["egui", "3d", "gizmo"]
 members = []
 
 [dependencies]
-egui = { git = "https://github.com/amPerl/egui", branch = "feature/wgpu-depth-texture" }
+egui = { git = "https://github.com/emilk/egui", sha = "2842d390c9d4287930a9c6b61acc2d793146b040" }
 glam = "0.21.3"
 
 [profile.release]
